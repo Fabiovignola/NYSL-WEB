@@ -1,0 +1,375 @@
+.contenedor{
+    width: 1330px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 50px;
+}
+.todo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.banner{
+    grid-column: 1/4;
+}
+.bo{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2; 
+}
+.con{
+   grid-column: 1/4;
+}
+.texto-encima{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 2px;
+    color: black;
+    font-size:40px;
+    -webkit-text-fill-color: yellowgreen;
+    -webkit-text-stroke: 1px black;
+}
+.pageTitle{
+    grid-column: 1/4;
+}
+.upco{
+    margin: 0;
+    background: green;
+    color: white;
+    width: 1330px;
+    height: 60px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius:40px;
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+}
+.menu{
+    grid-column: 1/4;
+    margin: auto;
+}
+.logo{
+    position: absolute;
+    width: 150px;
+    position: absolute;
+    top: 180px;    
+    left: 600px;
+    z-index: 2;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 50px;
+    color: white;
+   
+}
+.haci{
+    list-style:none;
+}
+.home{
+    
+}
+.home2{ 
+    color: white;
+    display: grid;
+    text-align: center;
+    border: 0px solid white;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.griditems2{
+    grid-row: 1/2;
+    font-size: 20px;
+    text-align: center;
+}
+.griditems3{
+     grid-row: 2/3;
+    font-size: 20px;
+    text-align: center;
+}
+.griditems4{
+     grid-row: 3/4;
+    font-size: 20px;
+    text-align: center;
+}
+.boton{
+   
+}
+.index{
+    border: 3px solid white;
+    background: black;
+    color: white;
+    padding: 5px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    list-style-type: none;
+
+
+}
+.index2{
+    border: 3px solid white;
+    background: black;
+    color: white;
+    padding: 5px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    list-style-type: none;
+}
+.index3{
+    border: 3px solid white;
+    background: black;
+    color: white;
+    padding: 5px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    list-style-type: none;
+}
+.index4{
+    border: 3px solid white;
+    background: black;
+    color: white;
+    padding: 5px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    list-style-type: none;
+}
+.index5{
+    border: 3px solid white;
+    background: black;
+    color: white;
+    padding: 5px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    list-style-type: none;
+}
+.index6{
+    border: 3px solid white;
+    background: black;
+    color: white;
+    padding: 5px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    list-style-type: none;
+}
+.active{
+    border: 3px solid white;
+    background: green;
+    color: white;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    
+    
+}
+a:link, a:visited, a:active {
+            text-decoration:none;
+        
+        }
+ body {
+    background-image: url("ss.jpg")
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    color: white;
+    border: 0px solid white;
+    text-align: center;
+    padding: 8px;
+
+}
+tr, th, td {
+    width:25%;
+}
+.infot{
+    color: white;
+    text-align: center;
+}
+.txt{
+   
+    color: white;
+    margin-top: 100px;
+    float: left;
+}
+.micha{
+    color: blue;
+    margin-left: 100px;
+}
+.ruletitle{
+    color: white;
+    text-align: center;
+}
+.ruletxt{
+    color: white;
+    margin: 150px;
+}
+.alpha{
+    list-style-type: lower-alpha;
+}
+.contenedorform{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+}
+.form{
+    display: flex;
+}
+.formp{
+    width: 48%;
+    color: white;
+}
+.formp input{
+    width: 63%;
+}
+.forml{
+    width: 50%;
+}
+.forml input{
+    width: 70%;
+}
+.form2{
+    display: flex;
+}
+.formc{
+    width: 48%
+}
+.formc input{
+    width: 85%;
+}
+.formz{
+    width: 50%;
+}
+.formz input{
+    width: 72%;
+}
+.form3{
+    width: 100%;
+}
+.form3 input{
+    width: 80.4%;
+}
+.form4{
+    display: flex;
+    width: 100%
+}
+.formb{
+    width: 48%
+}
+.formb input{
+    width: 53.5%;
+}
+.formg{
+    width: 50%
+}
+.grade{
+    display: flex;
+    width: 100%;
+}
+.grade2{
+    width: 10%;
+}
+.gender{
+    width: 90%;
+}
+.parent{
+    width: 100%;
+}
+.parent input{
+    width: 79%;
+}
+.contactph{
+    display: flex;
+    width: 100%;
+}
+.contactph2{
+    width: 48%;
+}
+.contactph2 input{
+    width: 70%;
+}
+.contactph3{
+    width: 50%
+}
+.contactph3 input{
+    width: 64.6%;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    
+}
+.which{
+    display: flex;
+}
+.lote{
+    display: flex;
+    width: 60%;
+}
+.seco{
+    display: flex;
+    flex-direction: column;
+}
+.seco2{
+    display: flex;
+    width: 60%;
+    
+}
+.prim{
+    flex-direction: column;
+    
+}
+.prim2{
+    flex-direction: column;
+}
+.lote2{
+    display: flex;
+    width: 80%;
+   
+}
+.seco3{
+   display: flex;
+    width: 80%;
+}
+.prim5{
+    flex-direction: column;
+    width: 33%;
+
+}
+.prim6{
+    flex-direction: column;
+    width: 21%;
+}
+.ulti{
+    display: flex;
+    width: 100%;
+}
+.firma{
+    width: 50%
+}
+.firma input{
+    width: 60%
+}
+.fechafinal{
+    width: 40%;
+}
+.fechafinal input{
+    width: 88%;
+}
+.direccion{
+    text-align: right
+}
+.direccion2{
+    text-align: left;
+}
+.send{
+    background: red;
+}
